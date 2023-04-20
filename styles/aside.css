@@ -1,0 +1,26 @@
+.aside {
+  width: var(--aside-width);
+  height: 100vh;
+  padding: 48px;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: start;
+}
+
+.logo__img {
+  margin-right: 9px;
+  width: 48px;
+  height: 48px;
+  background-color: #e78ddb;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+}
+.logo__text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}

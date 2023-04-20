@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Unicorn - Auth</title>
-</head>
-<body>
-  <main>
-    <section class="auth">
-      <div class="auth__bg"></div>
-      <aside class="auth__aside">
-        <div class="logo">
-          <img src="" alt="" class="logo__img">
-          
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unicorn - Auth</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="main">
+        <div class="main__bg">
+          <a class="main__author" href="#">Photo by <span class="under">Alexandr Popadin</span></a>
         </div>
-      </aside>
-    </section>
-  </main>
-</body>
+        <aside class="aside">
+          <div class="aside__logo logo">
+            <img
+              srcset="
+                ./images/logo/logo.png    1x,
+                ./images/logo/logo_2x.png 2x,
+                ./images/logo/logo_4x.png 4x
+              "
+              alt="Logo"
+              class="logo__img"
+            />
+            <img
+              src="./images/logo/text_logo.svg"
+              alt="UI - Unicorn"
+              class="logo__text"
+            />
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
 </html>
