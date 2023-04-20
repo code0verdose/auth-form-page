@@ -11,7 +11,9 @@
     <main>
       <section class="main">
         <div class="main__bg">
-          <a class="main__author" href="#">Photo by <span class="under">Alexandr Popadin</span></a>
+          <a class="main__author" href="#"
+            >Photo by <span class="under">Alexandr Popadin</span></a
+          >
         </div>
         <aside class="aside">
           <div class="aside__logo logo">
@@ -29,6 +31,63 @@
               alt="UI - Unicorn"
               class="logo__text"
             />
+          </div>
+          <h2 class="aside__title">Nice to see you again</h2>
+          <form class="aside__form form">
+            <div class="form__area">
+              <label>
+                <span class="form__label form__field_login">Login</span>
+                <input
+                  class="form__field"
+                  maxlength="48"
+                  placeholder="Email or phone number"
+                  required
+                  type="text"
+                />
+              </label>
+            </div>
+
+            <div class="form__area">
+              <label>
+                <span class="form__label">Password</span>
+                <input
+                  class="form__field form__field_password"
+                  maxlength="48"
+                  placeholder="Enter password"
+                  required
+                  type="text"
+                />
+              </label>
+            </div>
+
+            <div class="from__settings">
+              <div class="checkbox">
+                <input id="chk" class="checkbox__input" type="checkbox" />
+                <label for="chk" class="checkbox__label"></label>
+                <span class="checkbox__text">Remember me</span>
+              </div>
+              <a class="area__link" href="#">Forgot password?</a>
+            </div>
+            <div class="form__buttons">
+              <input
+                class="form__btn form__btn_submit btn"
+                type="submit"
+                value="Sign in"
+              />
+              <span class="line form__line"></span>
+            </div>
+          </form>
+          <button class="form__btn form__btn_google btn">
+            <img
+              class="form__btn_img"
+              src="./images/icons/google.svg"
+              alt="G"
+            />
+            <span>Or sign in with Google</span>
+          </button>
+          <div class="area__signup">
+            <p class="area__question">Dont have an account?</p>
+            <a class="area__link" href="#">Sign up now</a>
           </div>
         </aside>
       </section>

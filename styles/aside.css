@@ -1,5 +1,7 @@
+@import url("./vars.css");
+
 .aside {
-  width: var(--aside-width);
+  min-width: var(--aside-width);
   height: 100vh;
   padding: 48px;
   background-color: #fff;
@@ -8,6 +10,7 @@
 .logo {
   display: flex;
   align-items: start;
+  margin-bottom: 48px;
 }
 
 .logo__img {
@@ -18,9 +21,22 @@
   border-radius: 50%;
   text-align: center;
   font-size: 10px;
+  pointer-events: none;
 }
 .logo__text {
   margin-top: 10px;
   font-size: 18px;
   font-weight: 700;
+  width: 93px;
+  height: 16px;
+  pointer-events: none;
+}
+
+.aside__title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a1a1a;
+  margin-bottom: 24px;
 }
