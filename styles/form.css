@@ -21,16 +21,18 @@
   color: #000;
 }
 
-.form__field_password {
+.form__field-wrapper {
   position: relative;
 }
-.form__field_password::after {
-  content: url('../images/icons/eye.svg');
-  display: block;
+
+.password-eye {
   position: absolute;
-  z-index: 100;
+  width: 16px;
+  height: 11px;
   top: 50%;
   right: 16px;
+  transform: translateY(-50%);
+  z-index: 100;
 }
 
 .form__field::placeholder {
@@ -60,6 +62,7 @@
 .checkbox {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .checkbox__label {
@@ -98,7 +101,14 @@
 }
 
 .checkbox__input {
-  display: none;
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  z-index: 100;
 }
 
 .checkbox__text {
