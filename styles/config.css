@@ -34,3 +34,10 @@ a {
 .under {
   text-decoration: underline;
 }
+
+input:focus {
+  outline: 2px solid lightskyblue;
+}
+button:focus {
+  outline: 2px solid lightskyblue;
+}
