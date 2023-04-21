@@ -40,3 +40,15 @@
   color: #1a1a1a;
   margin-bottom: 24px;
 }
+
+@media (max-width: 670px) {
+  .aside {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 422px) {
+  .aside {
+    padding: 20px;
+  }
+}

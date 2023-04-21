@@ -24,3 +24,10 @@
   letter-spacing: -0.4px;
   font-family: 'Roboto', sans-serif;
 }
+
+
+@media (max-width: 670px) {
+  .main__bg {
+    display: none;
+  }
+}

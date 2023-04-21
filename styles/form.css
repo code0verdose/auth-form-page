@@ -187,3 +187,12 @@
   color: #1a1a1a;
   margin-right: 8px;
 }
+
+@media (max-width: 422px) {
+  .form__btn_submit {
+    margin-bottom: 15px;
+  }
+  .line {
+    margin-bottom: 15px;
+  }
+}
