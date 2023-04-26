@@ -105,7 +105,6 @@
 }
 
 .checkbox__input:checked ~ .checkbox__label::before {
-  top: 1.5px;
   right: 1.5px;
   left: auto;
 }
